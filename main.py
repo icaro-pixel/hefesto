@@ -1,7 +1,8 @@
-from rocketpy import *
+from rocketpy import Flight, Rocket, SolidMotor
 from dic_hefesto import setting, aletas, coifa, rail_button, refeedRec, unrefeedRec
 from dic_motor import motorD
 from ambiente import envLasc, envIrec, caminho_data
+
 
 foguete = Rocket(**setting)
 
